@@ -1,0 +1,12 @@
+@media screen and (min-width: 800px) {
+    .popup__close-button_type_image {
+        left: 95%;
+        top: -11%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .popup__close-button_type_image {
+        left: 100%;
+    }
+}

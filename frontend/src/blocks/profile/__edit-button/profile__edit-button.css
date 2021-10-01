@@ -1,0 +1,23 @@
+.profile__edit-button {
+  background-image: url(../../../images/Karandashimage.svg);
+  width: 19px;
+  height: 19px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: solid 1px #E5E5E5;
+  align-self: flex-end;
+  margin-left: 2px;
+  cursor: pointer;
+  transition: opacity 0.4s linear 0.3s;
+  outline: none;
+  margin-bottom: 14px;
+}
+
+@media screen and (min-width: 1024px) {
+  .profile__edit-button {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 9px;
+  }
+}

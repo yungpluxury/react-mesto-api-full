@@ -1,0 +1,34 @@
+# Logs
+logs
+backend/*.log
+backend/npm-debug.log*
+
+# Dependency directory
+backend/node_modules
+
+# Optional npm cache directory
+backend/.npm
+
+# Optional REPL history
+.DS_Store
+.vscode
+
+# dependencies
+frontend/node_modules
+frontend/.pnp
+.pnp.js
+
+# testing
+frontend/coverage
+
+# production
+frontend/build
+
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*

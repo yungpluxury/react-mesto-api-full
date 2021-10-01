@@ -1,0 +1,27 @@
+.profile__edit-button-avatar {
+    background-image: url(../../../../images/buttonImageKarandash.svg);
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    opacity: 0;
+    outline: none;
+    z-index: 1;
+    transition: visibility .5s, opacity .5s linear;
+}
+
+@media screen and (min-width: 1024px) {
+    .profile__edit-button-avatar {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+.profile__edit-button-avatar:hover {
+    opacity: 1;
+}

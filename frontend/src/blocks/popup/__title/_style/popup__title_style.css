@@ -1,0 +1,9 @@
+.popup__title_style {
+  margin: 25px 56px 70px -54px;
+}
+
+@media screen and (min-width: 800px) {
+  .popup__title_style {
+    margin: 34px 60px 44px -144px;
+  }
+}

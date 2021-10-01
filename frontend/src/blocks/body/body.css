@@ -1,0 +1,13 @@
+.body {
+  background-color: black;
+  font-family: "Inter", Arial, sans-serif;
+  margin: auto;
+  min-width: 320px;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .body{
+   max-width: 880px;
+  }
+}

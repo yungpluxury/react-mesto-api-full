@@ -1,0 +1,8 @@
+.header__signout {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: black;
+    outline:none;
+    color: #A9A9A9;
+}

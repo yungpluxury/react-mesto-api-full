@@ -1,0 +1,9 @@
+.popup__title-tooltip {
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}

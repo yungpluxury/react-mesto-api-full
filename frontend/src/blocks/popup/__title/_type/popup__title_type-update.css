@@ -1,0 +1,10 @@
+.popup__title_type-update {
+    margin: 34px 47px 44px -30px;
+}
+
+
+@media screen and (min-width: 800px) {
+    .popup__title_type-update {
+        margin: 34px 87px 44px -66px;
+    }
+}
