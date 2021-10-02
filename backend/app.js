@@ -1,12 +1,26 @@
 const express = require('express');
+
+const cors = require('cors');
+
+const options = {
+  origin: [
+    'http://localhost:3000',
+    'https://yungpluxury.students.nomoredomains.club',
+    'http://yungpluxury.students.nomoredomains.club',
+  ],
+  methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
+  preflightContinue: false,
+  optionsSuccessStatus: 204,
+  allowedHeaders: ['Content-Type', 'origin', 'Authorization', 'Accept'],
+  credentials: true,
+};  
+
 const mongoose = require('mongoose');
 require('dotenv').config();
 
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const { errors, celebrate, Joi } = require('celebrate');
-
-const cors = require('./middlewares/cors');
 
 const NotFoundError = require('./errors/notFoundError');
 
@@ -28,6 +42,8 @@ mongoose.connect('mongodb://localhost:27017/mestodb', {
 });
 const app = express();
 
+app.use('*', cors(options));
+
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000,
   max: 100,
@@ -43,8 +59,6 @@ app.get('/crash-test', () => {
     throw new Error('Сервер сейчас упадёт');
   }, 0);
 });
-
-app.use(cors);
 
 app.use(requestLogger);
 
