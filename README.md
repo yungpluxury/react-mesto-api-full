@@ -1,5 +1,4 @@
 * Проект Mesto
-* В данном приложении пользователь может загружать фотографии, ставить лайк и удалять карточки
-* Адрес сайта:http://front.nomoredomains.monster
-* Адрес backend https://backend.nomoredomains.rocks
-* Публичный адрес 178.154.223.16
+* Адрес сайта: http://yungpluxury.students.nomoredomains.club
+* Адрес backend: http://api.yungpluxury.students.nomoredomains.club/signup
+* Публичный адрес: 84.252.143.146
