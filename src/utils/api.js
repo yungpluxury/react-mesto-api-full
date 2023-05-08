@@ -132,7 +132,7 @@ class Api {
 }
 
 const api = new Api({
-    url: 'http://localhost:3000',
+    url: 'https://brilliant-arithmetic-967d92.netlify.app/.netlify/functions/api',
     headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
