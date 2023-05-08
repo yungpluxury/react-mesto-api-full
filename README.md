@@ -1,4 +1,3 @@
-* Проект Mesto
-* Адрес сайта: http://yungpluxury.students.nomoredomains.club
-* Адрес backend: http://api.yungpluxury.students.nomoredomains.club
-* Публичный адрес: 84.252.143.146
+# Проект Mesto
+## Проект на netlify: [http://yungpluxury.students.nomoredomains.club](https://yungpluxury-mesto-frontend.netlify.app)
+## Api на netlify: [http://api.yungpluxury.students.nomoredomains.club](https://yungpluxury-mesto-backend.netlify.app/.netlify/functions/api)
