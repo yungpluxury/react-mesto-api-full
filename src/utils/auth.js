@@ -1,4 +1,4 @@
-export const BASE_URL = 'https://brilliant-arithmetic-967d92.netlify.app/.netlify/functions/api'
+export const BASE_URL = 'https://yungpluxury-mesto-backend.netlify.app/.netlify/functions/api'
 
 const checkRes = (res) => {
     return res.ok ? res.json() : Promise.reject(`Ошибка: ${res.status}`)

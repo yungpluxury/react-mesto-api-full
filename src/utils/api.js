@@ -132,7 +132,7 @@ class Api {
 }
 
 const api = new Api({
-    url: 'https://brilliant-arithmetic-967d92.netlify.app/.netlify/functions/api',
+    url: 'https://yungpluxury-mesto-backend.netlify.app/.netlify/functions/api',
     headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
