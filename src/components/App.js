@@ -36,7 +36,7 @@ function App() {
             (data) => {
                 setLoggedIn(true);
                 setUserEmail(data.email);
-                history.push('/');
+                history.push('/my-profile');
             })
             .catch((err) => {
                     console.log(err);
